@@ -2,6 +2,17 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
+// Copies a single file from one path to another
+function copyFileSync(from, to) {
+  // Ensure the directory of the destination file exists
+  const destDir = path.dirname(to);
+  if (!fs.existsSync(destDir)) {
+    fs.mkdirSync(destDir, { recursive: true });
+  }
+  fs.copyFileSync(from, to);
+}
+
+
 // Copies a folder from one path to another
 function copyFolderSync(from, to) {
   if (!fs.existsSync(to)) fs.mkdirSync(to, { recursive: true });
@@ -67,5 +78,6 @@ execSync('npx html-minifier-terser src/index.html -o dist/index.html --collapse-
 console.log('Copying assets...');
 copyFolderSync('src/images', 'dist/images');
 copyFolderSync('src/fonts', 'dist/fonts');
+copyFileSync('src/favicon.ico', 'dist/favicon.ico');
 
 console.log('Build complete!');
