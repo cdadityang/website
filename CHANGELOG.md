@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.3
+### Changes
+- Pagespeed insights - recommendations implemented
+
+
 ## 1.0.2
 ### Changes
 - Remove `cpx` from npm as not being used
