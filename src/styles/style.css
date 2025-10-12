@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Open Sans', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+html[data-bs-theme="dark"] .dark-mode-svg-stroke-white, html[data-bs-theme="dark"] .dark-mode-svg-stroke-white path {
+  stroke: #dee2e6;
+}
+
+.hero-row {
+  height: calc(100vh - 42px);
+}
+
+.skills-card {
+  width: 130px;
+}
