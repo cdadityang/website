@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ## 1.0.5 - OG images added
 ### Changes
 - OpenGraph image added
+- Update to drabkirn domain
 
 ## 1.0.4
 ### Changes
