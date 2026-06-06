@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.8 - Remove do not track attribute (6 Jun 2026)
+### Changes
+- Removed do not track attribute from webuma script
+
 ## 1.0.7 - Dependency bumps (6 Jun 2026)
 ### Changes
 - Bumped build dev dependencies: `@fullhuman/postcss-purgecss` 7→8, `cssnano` 7→8, `autoprefixer`, `postcss`, and `terser`
