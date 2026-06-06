@@ -7,3 +7,6 @@ logs/
 
 # Ignore dist/ folder as it is the build output
 dist/
+
+# Claude Code
+CLAUDE.md

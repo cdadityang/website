@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.7 - Dependency bumps (6 Jun 2026)
+### Changes
+- Bumped build dev dependencies: `@fullhuman/postcss-purgecss` 7→8, `cssnano` 7→8, `autoprefixer`, `postcss`, and `terser`
+- Ignore `CLAUDE.md` in `.gitignore`
+
 ## 1.0.6 - Added new skills
 ### Changes
 - Added playwright, rspec and astro to skills
