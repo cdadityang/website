@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.9 - Dependency bumps (27 Sep 2026)
+### Changes
+- Bumped build dev dependencies: `postcss-cli` 11→12, `autoprefixer`, `cssnano`, `postcss`, and `terser`
+
 ## 1.0.8 - Remove do not track attribute (6 Jun 2026)
 ### Changes
 - Removed do not track attribute from webuma script
